@@ -1,0 +1,64 @@
+nav {
+  background-color: #27292D;
+}
+nav-link {
+  color: #FFFFFF;
+}
+nav-link:hover {
+  color: #BFBFBF;
+}
+
+.card-title {
+  color: #FF4655;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+#agentes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #2D2F33;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+body {
+  background-color: #1F2A30;
+  font-family: "Rajdhani", sans-serif;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  color: #FF4655;
+}
+
+a {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
